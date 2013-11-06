@@ -17,10 +17,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: PxL_development
+  database: pxl_development
   pool: 5
-  username: PxL
-  password:
+  username: pxl
+  password: pxl
 
   # Connect on a TCP socket. Omitted by default since the client uses a
   # domain socket that doesn't need configuration. Windows does not have
@@ -46,15 +46,15 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: PxL_test
+  database: pxl_test
   pool: 5
-  username: PxL
-  password:
+  username: pxl
+  password: pxl
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: PxL_production
+  database: pxl_production
   pool: 5
-  username: PxL
-  password:
+  username: pxl
+  password: pxl
