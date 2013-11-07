@@ -1,4 +1,5 @@
 PxL::Application.routes.draw do
+  get "static_pages/AboutUs"
   resources :users
 
   resources :products
